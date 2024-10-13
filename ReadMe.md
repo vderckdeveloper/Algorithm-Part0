@@ -1,6 +1,6 @@
 ## 🎉 Intro
 
-**`✅ Programmer Algorithm Challenges - Part  ✅`** 
+**`✅ Programmer Algorithm Challenges - Part 0 ✅`** 
 
 Hey, there! I'm **`SEUNGMIN LEE`** and I gotta say,I've discovered that I need to dive deeper into algorithm problems while sharing my journey with everyone.
 
@@ -20,7 +20,7 @@ So sit back, explore, and join me on my adventure in **`algorithmic problem-solv
 
 &nbsp; 
 ```bash
-│    interceptorSystem.js
+│   
 ```
 
 &nbsp; 
