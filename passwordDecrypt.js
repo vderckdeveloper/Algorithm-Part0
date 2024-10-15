@@ -1,12 +1,13 @@
+const cipher = "dfjardstddetckdaccccdegk";
+const code = 4;
 
-function solution(order) {
-    const orderStr = order.toString();
-
-    let count = 0;
-    for (let i = 0; i < orderStr.length; i++) {
-        const char = orderStr[i];
-        if (char === '3' || char === '6' || char === '9') count++;
+function solution(cipher, code) {
+    let answer = '';
+    for (let i = 0; i < cipher.length; i++) {
+        const char = cipher[i];
+        if ((i + 1) % code === 0) answer += char;
     }
-
-    return count;
+    return answer;
 }
+
+solution(cipher, code);
