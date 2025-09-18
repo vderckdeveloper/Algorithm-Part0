@@ -1,0 +1,1 @@
+const solution = (el, idx) => el.indexOf(1, idx);
