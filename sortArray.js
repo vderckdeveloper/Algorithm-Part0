@@ -1,0 +1,1 @@
+const solution = my_string => my_string.split('x').sort().filter(v => v !== '');
