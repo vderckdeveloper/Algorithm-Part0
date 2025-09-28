@@ -1,7 +1,7 @@
 const arr = [1, 2, 3, 100, 99, 98];
 
-const solution = (arr) => {
-    let prevArr = arr; // arr(0)
+const solution = arr => {
+    let prevArr = arr; 
     let count = 0;
 
     while (true) {
