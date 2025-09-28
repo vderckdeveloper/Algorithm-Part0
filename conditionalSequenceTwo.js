@@ -1,0 +1,11 @@
+const arr = [1, 2, 3, 100, 99, 98];
+
+const solution = arr => arr.map(v => {
+    if (v >= 50 && v % 2 === 0) {
+        return v / 2
+    } else if (v <= 50 && v % 2 !== 0) {
+        return v * 2
+    } else return v;
+});
+
+solution(arr);
